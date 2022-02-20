@@ -1,0 +1,127 @@
+body {
+  font-family: "Roboto Mono", sans-serif;
+  min-height: 900px;
+  background-image: url (" ");
+  background-color: #bb6c2e;
+  background-size: 400px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-bottom: 20vh;
+}
+
+.container {
+  text-align: left;
+  padding: 40px;
+}
+
+.page-title {
+  color: #283619;
+  margin: 3px 0;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  background: #dca164;
+}
+
+h2 {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: #283619;
+}
+
+#carta-jogador,
+#carta-maquina {
+  width: 360px;
+  height: 500px;
+  overflow: auto;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  background-size: 350px 300px;
+  background-repeat: no-repeat;
+  background-position-x: 5px;
+  background-position-y: 20px;
+  border-radius: 10px;
+}
+
+#carta-jogador h3 {
+  text-align: center;
+  background-color: #283619;
+}
+
+.carta-imagem {
+  border: 0px solid black;
+  height: 100px;
+  margin: 10px;
+}
+
+.carta-imagem img {
+  width: 100%;
+  height: 100%;
+}
+
+.carta-status {
+  height: 140px;
+  margin: 2rem;
+  color: black;
+  z-index: 2;
+}
+
+.carta-status input {
+  margin: 10px 10px;
+}
+
+.resultado-final {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weigth: bolder;
+  text-align: center;
+  padding: 1rem;
+  border: 0px solid black;
+  background-color: #283619;
+}
+
+.--spacing {
+  margin-left: 2.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.carta-subtitle {
+  z-index: 2;
+  position: absolute;
+  top: 55px;
+  left: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#cartas {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carta-status {
+  margin-bottom: 2rem;
+}
